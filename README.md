@@ -56,17 +56,17 @@ Write the  Teraform automation  Scripts and user data scripts
 
 ### 1. Initialize Terraform
 
-```bash
-cd terraform
-terraform init
+      ```bash
+         cd terraform
+         terraform init
 ```
 
 ### 2. See the project plan and  Apply Configuration
 
-```bash
-terraform plan
-terraform apply
-  └──it will Automatically create us EC2 instance and jar file.
+  ```bash
+             terraform plan
+             terraform apply
+              └──it will Automatically create us EC2 instance and jar file.
   
 
 ```
