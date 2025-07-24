@@ -40,7 +40,7 @@ Prajwal-Devops/
 ## 🛠️ Prerequisites
 
 -  Create an AWS account and  create the access keys  (`~/.aws/credentials`)
-- Install Terraform in your system (windows/mac /etc..).
+- Install Terraform in your system (windows/mac /etc..). 
 - Install Amazon CLI in your System.
 - Install any IDE -VS code/Ecclipse/etc...
 - I preffered VS code
@@ -72,9 +72,12 @@ Write the  Teraform automation  Scripts and user data scripts
 ```
 
 ### 3. Copy the jar file to backend folder.
-USE SCP connection in our powershell /vs code  new terminal.
-Syntax: scp -i .pem location username@<publc_ip>:<location of .jar file><location Where you want to copy parcel.pem>
-scp -i "C:\Users\DEEPA\Downloads\day3.pem" ubuntu@54.165.2.221:/home/ubuntu/backend/parcel.jar "C:\Users\DEEPA\OneDrive\Desktop\Prajwal-Devops\backend\"
+
+         USE SCP connection in our powershell /vs code  new terminal.
+         
+        Syntax: scp -i .pem location username@<publc_ip>:<location of .jar file><location Where you want to copy parcel.pem>
+        
+        scp -i "C:\Users\DEEPA\Downloads\day3.pem" ubuntu@54.165.2.221:/home/ubuntu/backend/parcel.jar "C:\Users\DEEPA\OneDrive\Desktop\Prajwal-Devops\backend\"
 
 
 ## 🌐 4.Run the application in your browser
@@ -98,7 +101,7 @@ Hello from Spring MVC!
 ```bash
 terraform destroy
 ```
- After some time the Instance will be automatically destroyed
+ After some time the Instance will be automatically destroyed since we hace automated to stop the instance
 
 
 ---
@@ -129,20 +132,20 @@ Steps to Deploy
 
    **5.Run the application in your browser**
 
-  Visit:
+          Visit:
 
-   ```
-     http://<EC2_PUBLIC_IP>/hello
-  ```
+           ```
+          http://<EC2_PUBLIC_IP>/hello
+             ```
 
-    Expected Output:
+          Expected Output:
 
-   ```
-    Hello from Spring MVC
+             ```
+            Hello from Spring MVC
          
----
-You can to same for prod stage aslo.
-In order to track what are created see terraform.tfstate
+            ---
+           You can to same for prod stage aslo.
+           In order to track what are created see terraform.tfstate
 
 ## 🧑‍💻 Author
 
