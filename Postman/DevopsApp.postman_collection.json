@@ -1,0 +1,32 @@
+{
+	"info": {
+		"_postman_id": "717a1428-cb91-4da9-bc98-573ae68598ea",
+		"name": "DevopsApp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "47062349",
+		"_collection_link": "https://navigation-observer-72663203-6979085.postman.co/workspace/526745ca-13d7-4741-8c24-d7596726d65a/collection/47062349-717a1428-cb91-4da9-bc98-573ae68598ea?action=share&source=collection_link&creator=47062349"
+	},
+	"item": [
+		{
+			"name": "Hello",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://54.164.100.220/hello",
+					"protocol": "http",
+					"host": [
+						"54",
+						"164",
+						"100",
+						"220"
+					],
+					"path": [
+						"hello"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
