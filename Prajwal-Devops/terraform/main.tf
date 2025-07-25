@@ -13,7 +13,7 @@ resource "aws_instance" "devops_app" {
   vpc_security_group_ids = [aws_security_group.name.id]
 
   tags = {
-    Name = "DevOpsEC2Instances"
+    Name = "DevOpsEC2Instance"
   }
 }
 
